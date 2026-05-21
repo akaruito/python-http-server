@@ -1,0 +1,21 @@
+{
+  "host": "127.0.0.1",
+  "http_port": 8080,
+  "https_port": 8443,
+  "static_dir": "static",
+  "workers": 8,
+  "index_files": ["index.html", "index.htm"],
+  "use_standard_ports": false,
+  "error_pages": {
+    "400": null,
+    "404": null,
+    "500": null
+  },
+  "ssl": {
+    "enabled": true,
+    "auto_generate": true,
+    "serve_http": true,
+    "cert_days": 365,
+    "cert_cn": "localhost"
+  }
+}
